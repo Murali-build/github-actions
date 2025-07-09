@@ -6,3 +6,8 @@ jobs:
     steps:
       - name: print-name
         run: echo "my name is Murali"
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print-my-designation
+        run: echo "I am a DevOps Engineer"
