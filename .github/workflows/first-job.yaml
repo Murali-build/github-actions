@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print-name
-        run: echo "my name is Murali"
+        run: echo "My name is Murali"
   metadata:
     runs-on: ubuntu-latest
     steps:
