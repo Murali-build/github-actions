@@ -1,7 +1,7 @@
 name: my-first-job
 on: 
   schedule: 
-    - cron: '26 9 * * *'
+    - cron: '58 3 * * *'
     
 jobs:
   first-job:
