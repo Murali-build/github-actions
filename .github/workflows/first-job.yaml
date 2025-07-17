@@ -1,9 +1,8 @@
 name: my-first-job
 on: 
-  workflow_dispatch:  
-  push:
-    branches:
-      - main
+  schedule: 
+    - cron: '26 9 * * *'
+    
 jobs:
   first-job:
     runs-on: ubuntu-latest
