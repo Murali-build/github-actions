@@ -1,7 +1,6 @@
 name: my-first-job
 on: 
-  schedule: 
-    - cron: '*/5 * * * *'
+  workflow_dispatch: 
 jobs:
   first-job:
     runs-on: ubuntu-latest
